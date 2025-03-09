@@ -1,31 +1,120 @@
 
 <header>
-    <h4>Curso de Robótica</h4>
     <h1>O que é a &regFIRST?</h1>
 
     <nav class="menu-principal">
-        <li><a href="index.html">Home Page</a></li>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+        </ul>
         <h3>Introdução</h3>
-        <li><a href="first.html">O que é a &regFIRST?</a></li>
-        <h3>Modalidades</h3>
-        <li><a href="fll.html">FLL</a></li>
-        <li><a href="ftc.html">FTC</a></li>
-        <li><a href="frc.html">FRC</a></li>
+        <ul>
+            <li><a href="first.html">O que é a &regFIRST?</a></li>
+        </ul>
+        <h3>Conheça as modalidades:</h3>
+        <ul>
+            <li><a href="fll.html">FLL</a></li>
+            <li><a href="ftc.html">FTC</a></li>
+            <li><a href="frc.html">FRC</a></li>
+        </ul>
+        <h3>Conheça as áreas:</h3>
+        <ul>
+            <li><a href="mci.html">MCI</a></li>
+            <li><a href="ae.html">AE</a></li>
+        </ul>
+        <h3>Conheça os prêmios:</h3>
+        <ul>
+            <li><a href="pfll.html">FLL</a></li>
+            <li><a href="pftc.html">FTC</a></li>
+            <li><a href="pfrc.html">FRC</a></li>
+        </ul>
+
     </nav>
 </header>
+
 <main>
-    <p>A FIRST (For Inspiration and Recognition of Science and Technology) é uma organização internacional sem fins lucrativos que promove programas de robótica para jovens. Ela organiza diversas competições de robótica, cada uma com um foco e nível de dificuldade diferentes.</p>
+    <div class="oquee">
+        <p>A FIRST (For Inspiration and Recognition of Science and Technology) é uma organização internacional sem fins lucrativos que promove programas de robótica para jovens. Ela organiza diversas competições de robótica, cada uma com um foco e nível de dificuldade diferentes.</p>
+        <h2>Objetivos:</h2>
+        <li>Inspirar os jovens a serem líderes e inovadores em ciência e tecnologia.</li>
+        <li>Desenvolver habilidades de trabalho em equipe, resolução de problemas e comunicação.</li>
+        <li>Promover a importância da ciência, tecnologia, engenharia e matemática (STEM).</li>
+        <h2>Como Funciona:</h2>
+        <li>Desafio Anual: A cada ano, a FIRST divulga um novo desafio que as equipes devem enfrentar com seus robôs.</li>
+        <li>Construção e Programação: As equipes projetam, constroem e programam seus robôs para completar as tarefas do desafio.</li>
+        <li>Competições: As equipes participam de competições regionais e, se qualificadas, do campeonato mundial.</li>
+        <li>"Gracious Professionalism": A FIRST enfatiza o conceito de "Gracious Professionalism", que incentiva a competição amigável, o respeito mútuo e a ajuda entre as equipes.</li>
+        <h2>Impacto:</h2>
+        <li>A FRC tem um impacto significativo na vida dos estudantes, inspirando muitos a seguir carreiras em STEM.</li>
+        <li>O programa também ajuda a desenvolver habilidades importantes para o futuro, como trabalho em equipe, liderança e resolução de problemas.</li>
+    </div>
+    <div class="foto">
+        <img src="first1.jpg" alt="">
+        <img src="first2.jpg" alt="">
+        <img src="first3.jpg" alt="">
+    </div>
 </main>
 
 <style>
+    body {
+        background-color:black;
+    }
+   * {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-header {
-    font-size: 30px;
-    text-align: center;
-    color: white;
-}
+    header > h1 {
+        color:#33c2bf;
+        background-color: black;
+        float: right;
+        text-align: center;
+        width: 1140px;
+        font-size: 50px;
+        text-align: center;
+    }
 
-header > h1 {
-    color:#33c2bf;
-}
+    header > .menu-principal {
+        background-color: #33c2bf;
+        background-position: left;
+        font-size: 18px;
+        width: 200px;
+        height: 700px;
+        position: fixed;
+        left: 0px;
+        z-index:1;
+        overflow:auto;
+        text-align: left;
+        padding: 30px 10px;
+    }
+
+    ul > li, a {
+        color: white;
+        background-color: #33c2bf;
+    } 
+
+    nav > h3 {
+        color: white;
+        background-color: #33c2bf;
+    }
+
+    section {
+        font-size: 15px;
+        text-align: justify;
+        float: right;
+        width: 1120px;
+        color: white;
+    }
+
+    .oquee > li, p, h2 {
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        text-align: justify;
+        float: right;
+        width: 1120px;
+    }
+
+    .foto {
+        float: right;
+        width: 1120px;
+    }
 </style>
